@@ -1,0 +1,333 @@
+﻿<!DOCTYPE html>
+<html lang = "pt-br">
+<head>		
+	<meta name = "viewport" content="width=device-width, initial-scale=1">
+	<meta name = "author" value = "Brian Estigarribia Maia">
+	<meta name = "description" value = "Exercícios lista 2">
+	<title>Lista de exercícios 2</title>
+
+	<style type="text/css">
+		table { border-collapse: collapse; }
+		td,th { border: 1px solid black; }
+		.noborder td, .noborder th { border: none; }
+		body { padding: 50px; }
+		h1 { margin-top: 60px; }
+		thead th { background-color: #cccccc; }
+	</style>
+</head>
+<body>
+
+	<h1>exercício 1</h1>
+
+	<table>
+		<tr>
+			<th>Nome do produto</th>
+			<th>Quantidade </th>
+			<th>Valor unitário</th> 
+			<th>Valor total</th>
+		</tr>
+		<tr>
+			<td>Ar condicionado</td> 
+			<td>1</td> 
+			<td>5000,00</td> 
+			<td>5000,00</td>
+		</tr>
+		<tr>
+			<td>Chuveiro</td>
+			<td>2</td>
+			<td>300,00</td>
+			<td>600,00</td>
+		</tr>
+		<tr>
+			<td>Geladeira</td>
+			<td>1</td>
+			<td>800,00</td> 
+			<td>800,00</td>
+		</tr>
+	</table>
+
+
+	<!-- --------------------------------------------------- -->
+	<h1>exercício 2</h1>
+
+	<table>
+		<tr>
+			<th>Imagem</th>
+			<th>Nome do produto</th>
+			<th>Quantidade </th>
+			<th>Valor unitário</th> 
+			<th>Valor total</th>
+		</tr>
+		<tr>
+			<td>
+				<img src="http://www.pontofrio-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=3600275" width="200px"/>
+			</td>
+			<td>Ar condicionado</td> 
+			<td>1</td> 
+			<td>5000,00</td> 
+			<td>5000,00</td>
+		</tr>
+		<tr>
+			<td>
+				<img src="http://www.pontofrio-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=8517667" width="200px"/>
+			</td>
+			<td>Chuveiro</td>
+			<td>2</td>
+			<td>300,00</td>
+			<td>600,00</td>
+		</tr>
+		<tr>
+			<td>
+				<img src="https://a-static.mlcdn.com.br/618x463/geladeira-refrigerador-frost-free-310-litros-branco-electrolux-tf39/electrolux/2003608/c16138e763ab21eeb2db0731b909db80.jpg" width="200px"/>
+			</td>
+			<td>Geladeira</td>
+			<td>1</td>
+			<td>800,00</td> 
+			<td>800,00</td>
+		</tr>
+	</table>
+
+
+	<!-- --------------------------------------------------- -->
+	<h1>exercício 3</h1>
+
+	<table>
+		<thead>
+			<tr>
+				<th colspan="2">Descrição</th>
+				<th colspan="3">Informações do pedido</th>
+			</tr>
+			<tr>
+				<th>Imagem</th>
+				<th>Nome do produto</th>
+				<th>Quantidade </th>
+				<th>Valor unitário</th> 
+				<th>Valor total</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<img src="http://www.pontofrio-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=3600275" width="200px"/>
+				</td>
+				<td>Ar condicionado</td> 
+				<td>1</td> 
+				<td>5000,00</td> 
+				<td>5000,00</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="http://www.pontofrio-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=8517667" width="200px"/>
+				</td>
+				<td>Chuveiro</td>
+				<td>2</td>
+				<td>300,00</td>
+				<td>600,00</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="https://a-static.mlcdn.com.br/618x463/geladeira-refrigerador-frost-free-310-litros-branco-electrolux-tf39/electrolux/2003608/c16138e763ab21eeb2db0731b909db80.jpg" width="200px"/>
+				</td>
+				<td>Geladeira</td>
+				<td>1</td>
+				<td>800,00</td> 
+				<td>800,00</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+	<!-- --------------------------------------------------- -->
+	<h1>exercício 4</h1>
+
+	<form>
+		<label for="primeiro_nome">Primeiro Nome</label>
+		<input type="text" id="primeiro_nome">
+		<br/>
+
+		<label for="ultimo_nome">Último Nome</label>
+		<input type="text" id="ultimo_nome">
+		<br/>
+
+		<label for="email">Email</label>
+		<input type="text" id="email">
+		<br/>
+
+		<label for="cargo">Cargo</label>
+		<select id="cargo">
+			<option>Diretor</option>
+			<option>Funcionário</option>
+			<option>Gerente</option>
+		</select>
+		<br/>
+
+		<label for="resumo">Resumo profissional</label>
+		<textarea id="resumo"></textarea>
+		<br/>
+		<br/>
+
+		<button type="reset">Limpar</button>
+		<button type="submit">Enviar</button>
+	</form>
+
+
+	<!-- --------------------------------------------------- -->
+	<h1>exercício 5</h1>
+
+	<form>
+		<table class="noborder">
+			<tr>
+				<td><label for="primeiro_nome">Primeiro Nome</label></td>
+				<td><input type="text" id="primeiro_nome"></td>
+			</tr>
+
+			<tr>
+				<td><label for="ultimo_nome">Último Nome</label></td>
+				<td><input type="text" id="ultimo_nome"></td>
+			</tr>
+
+			<tr>
+				<td><label for="email">Email</label></td>
+				<td><input type="text" id="email"></td>
+			</tr>
+
+			<tr>
+				<td><label for="cargo">Cargo</label></td>
+				<td>
+					<select id="cargo">
+						<option>Diretor</option>
+						<option>Funcionário</option>
+						<option>Gerente</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><label for="resumo">Resumo profissional</label></td>
+				<td><textarea id="resumo"></textarea></td>
+			</tr>
+
+			<tr>
+				<td colspan=2>
+					<button type="reset">Limpar</button>
+					<button type="submit">Enviar</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+
+
+	<!-- --------------------------------------------------- -->
+	<h1>exercício 6</h1>
+
+	<h2>Sumário</h2>
+	
+	<ul>
+		<li>Tabela 
+			<small><a href="#secao_tabela">Ir para</a></small>
+		</li>
+		<li>Formulário 
+			<small><a href="#secao_form">Ir para</a></small>
+		</li>
+		<li>Lista de exercícios 1 
+			<small><a href="lista_1_6.html">Ir para</a></small>
+		</li>
+		<li>Moodle da disciplina 
+			<small><a href="http://moodle.ftec.com.br" target="_blank">Ir para</a></small>
+		</li>
+	</ul>
+
+	<h3 id="secao_tabela">Tabela</h3>
+
+	<table>
+		<thead>
+			<tr>
+				<th colspan="2">Descrição</th>
+				<th colspan="3">Informações do pedido</th>
+			</tr>
+			<tr>
+				<th>Imagem</th>
+				<th>Nome do produto</th>
+				<th>Quantidade </th>
+				<th>Valor unitário</th> 
+				<th>Valor total</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<img src="http://www.pontofrio-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=3600275" width="200px"/>
+				</td>
+				<td>Ar condicionado</td> 
+				<td>1</td> 
+				<td>5000,00</td> 
+				<td>5000,00</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="http://www.pontofrio-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=8517667" width="200px"/>
+				</td>
+				<td>Chuveiro</td>
+				<td>2</td>
+				<td>300,00</td>
+				<td>600,00</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="https://a-static.mlcdn.com.br/618x463/geladeira-refrigerador-frost-free-310-litros-branco-electrolux-tf39/electrolux/2003608/c16138e763ab21eeb2db0731b909db80.jpg" width="200px"/>
+				</td>
+				<td>Geladeira</td>
+				<td>1</td>
+				<td>800,00</td> 
+				<td>800,00</td>
+			</tr>
+		</tbody>
+	</table>	
+
+	<h3 id="secao_form">Formulário</h3>
+
+	<form>
+		<table class="noborder">
+			<tr>
+				<td><label for="primeiro_nome">Primeiro Nome</label></td>
+				<td><input type="text" id="primeiro_nome"></td>
+			</tr>
+
+			<tr>
+				<td><label for="ultimo_nome">Último Nome</label></td>
+				<td><input type="text" id="ultimo_nome"></td>
+			</tr>
+
+			<tr>
+				<td><label for="email">Email</label></td>
+				<td><input type="text" id="email"></td>
+			</tr>
+
+			<tr>
+				<td><label for="cargo">Cargo</label></td>
+				<td>
+					<select id="cargo">
+						<option>Diretor</option>
+						<option>Funcionário</option>
+						<option>Gerente</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><label for="resumo">Resumo profissional</label></td>
+				<td><textarea id="resumo"></textarea></td>
+			</tr>
+
+			<tr>
+				<td colspan=2>
+					<button type="reset">Limpar</button>
+					<button type="submit">Enviar</button>
+				</td>
+			</tr>
+		</table>
+	</form>	
+
+</body>
+
+</html>
