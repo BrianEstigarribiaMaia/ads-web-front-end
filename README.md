@@ -1,6 +1,6 @@
 <h1>Sobre</h1>
 
-<p>Códigos da cadeira de Programação Webda FTEC Porto Alegre, graduação de Análise e Desenvolvimento de Sistemas presencial.
+<p>Códigos da cadeira de Programação Web da FTEC Porto Alegre, graduação de Análise e Desenvolvimento de Sistemas presencial.
 Utilizei a plataforma GitHub como meio de organizar os Códigos e compartilhar os resultados. </p>
 
 <h2>Conteúdo</h2>
