@@ -1,0 +1,29 @@
+a{
+	font-family: arial,sans-serif;
+	color: blue;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited{
+	color:#609;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:link{
+	cursor: pointer;
+}
+
+.site{
+	color: #006621;
+	font-family: arial, sans-serif;
+	font-style: normal;
+}
+
+.text{
+	font-family: arial,sans-serif;
+	font-size: small;
+}

@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" value="Brian Estigarribia" />
+    <meta name="description" value="Exercício css" />
+    <title>Exercício css</title>
+    <link rel="stylesheet" type="text/css" href="style/exercicio-css.css" />
+  </head>
+  <body>
+    <div id="cabecalho">
+      <a href="#secao1">Secao 1</a>
+      <a href="#secao2">Secao 2</a>
+      <a href="#secao3">Secao 3</a>
+    </div>
+
+    <div id="corpo">
+      <h1>Exercício CSS</h1>
+      <p>
+        Esse exercício é barbada. A estrutura do HTML e CSS já está montada.
+        Você só precisa fazer as seguintes mudanças, utilizando CSS e sempre
+        evitando duplicar regras:
+      </p>
+      <ul>
+        <li>
+          Coloco o primeiro link do cabeçalho em negrito (font-weight: bold).
+          Crie uma classe "menu-ativo" para esse estilo.
+        </li>
+        <li>
+          Garanta que somente os menus não ativos tenham o efeito do sublinhado
+          (text-decoration: underline) quando se passa o mouse em cima
+        </li>
+        <li>
+          No link Ver mais da segunda tabela, defina que sempre que o mouse
+          estiver em cima, fique em negrito.
+        </li>
+        <li>
+          Os nomes das disciplinas nas tabelas deve ficar em verde. Cria uma
+          classe para aplicar na célula dessa coluna
+        </li>
+        <li>
+          Remova apenas a borda da tabela (border: none) utilizado para alinhar
+          o formulário. As bordas das demais tabelas devem permanecer!
+        </li>
+        <li>
+          Transforme essa lista de items em uma lista ordenada e dê um
+          espaçamento de 10px entre cada item da lista
+        </li>
+        <li>
+          Para cada seção (elemento section) defina uma borda superior de 1px
+          preta e de traço continuo.
+        </li>
+      </ul>
+
+      <section id="tabelas">
+        <h2>Tabelas</h2>
+        <table id="discilinas">
+          <caption>
+            Disciplinas
+          </caption>
+          <tr>
+            <th>Horario</th>
+            <th>Disciplina</th>
+          </tr>
+          <tr>
+            <td>3a manhã</td>
+            <td>Segurança de dados</td>
+          </tr>
+          <tr>
+            <td>5a manhã</td>
+            <td>Programação Java</td>
+          </tr>
+        </table>
+
+        <table id="turmas">
+          <caption>
+            Turmas
+            <a href="#mais_turmas">Ver mais</a>
+          </caption>
+          <tr>
+            <th>Horario</th>
+            <th>Turma</th>
+          </tr>
+          <tr>
+            <td>3a manhã</td>
+            <td>Segurança de dados</td>
+          </tr>
+          <tr>
+            <td>5a manhã</td>
+            <td>Programação Java</td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="forms">
+        <h2>Formulários</h2>
+        <form>
+          <table>
+            <tr>
+              <td><label>Endereço</label></td>
+              <td><input type="text" name="endereco" /></td>
+            </tr>
+            <tr>
+              <td><label>Telefone</label></td>
+              <td><input type="text" name="endereco" /></td>
+            </tr>
+          </table>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
