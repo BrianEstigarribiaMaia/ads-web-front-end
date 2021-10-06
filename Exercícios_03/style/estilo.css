@@ -1,0 +1,53 @@
+#first {
+    margin-top: 40px;
+}
+#par {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.exer2 {
+    margin: 10px;
+    border: 2px dashed blue;
+    padding: 0 10px 10px 10px;
+}
+h1 {
+    border-bottom: 2px solid black;
+    font-size: 20px;
+}
+
+h1.scor {    
+    padding-bottom: 5px;
+}
+
+h1.ccor {
+    background-color: red;
+    padding: 5px 10px;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 20px;    
+}
+img {
+    max-width: 100px;
+}
+
+.imagem {
+    text-align: center;
+}
+
+.exer3 {
+    margin: 10px;
+    border: 2px solid black;
+}
+.exer3 .espaco{
+    margin: 0 10px;
+}
+.verm {
+    color: red;
+}
+.azul {
+    color: blue;
+}

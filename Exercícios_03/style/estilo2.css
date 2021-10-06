@@ -1,0 +1,21 @@
+#titulo {
+  margin: 10px;
+  border: 10px;
+}
+
+p {
+  background-color: red;
+  color: white;
+  font-family: Aerial;
+  font-size: 20px;
+  margin: 10px;
+  border: 10px;
+}
+
+img {
+  position: absolute;
+  top: 90px;
+  left: 450px;
+  width: 100px;
+  height: 100px;
+}
